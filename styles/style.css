@@ -2,12 +2,52 @@
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 480;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
-.starting-part {
+
+/* Shared Styles  */
+.display-flex {
     display: flex;
+}
+.text-gray {
+    color: #252432;
+}
+.text-light-gray {
+    color: #8987A1;
+}
+/* Header Styles  */
+
+/* Navbar Related Styles  */
+.navbar {
+   justify-content: space-between; 
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: 46px;
+    height: 24px;
+}
+
+/* Banner Related Styles  */
+.banner-content {
+    max-width: 435px;
+    margin-left: 130px;
+    margin-top: 150px;  
+}
+.banner-image {
+    width: 40%;
+    /* height: 45%; */
+    margin-top: 100px;
+    
+}
+.banner {
     justify-content: space-between;
+    margin-right: 150px;
+    margin-top: 150px;
 }
