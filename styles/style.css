@@ -106,3 +106,9 @@
    top: 2000px;
    left: 500px;
 }
+
+.update {
+    text-align: center;
+    margin: 0 auto;
+    width: 650px;
+}
