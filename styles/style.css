@@ -45,7 +45,6 @@
 }
 .banner-image {
     width: 40%;
-    
     margin-top: 100px;
     
 }
@@ -84,4 +83,26 @@
     text-align: center;
     gap: 20px;
     font-weight: 300;
+}
+/* Main Section  */
+.content {
+   /* margin-left: 300px; */
+}
+.certification {
+   max-width: 410px; 
+  
+   
+}
+.trust-badge {
+   max-width: 100%;
+   margin-left: 130px;
+   display: grid;
+
+}
+.badge {
+   width: 286px; 
+   height: 286px;
+   position: absolute;
+   top: 2000px;
+   left: 500px;
 }
